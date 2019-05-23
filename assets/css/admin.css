@@ -1,0 +1,83 @@
+
+
+/**********************************
+    Login
+**********************************/
+
+.login h1 a{
+	background-image: none,url('../images/logo.png');
+	-webkit-background-size: auto;
+	background-size: auto;
+	height: 80px;
+	width: 100%;
+}
+
+#login_error a{
+	display: none!important;
+	visibility: hidden;
+}
+
+
+/**********************************
+    Geral
+**********************************/
+
+#footer-upgrade {
+	visibility: hidden !important;
+}
+
+#footer-left {
+	float: right !important;
+}
+
+#contextual-help-link-wrap,
+#wp-version-message,
+.login #nav,
+#toplevel_page_loco,
+#normal-sortables #dashboard_right_now .inside .versions p {
+	visibility: hidden !important;
+	display: none !important;
+}
+
+a.gform_media_link{
+	display: none!important;
+}
+
+
+.column-featured_image{
+	width: 18%;
+}
+
+.column-featured_image img{
+	width: 100%;
+}
+
+
+.post-type-usuarios .tablenav .bulkactions,
+.post-type-usuarios .tablenav .actions,
+.post-type-usuarios .wrap .subsubsub,
+.post-type-usuarios .wrap .page-title-action,
+.post-type-usuarios .row-actions,
+.taxonomy-usuarios_pais #col-container #col-left,
+.taxonomy-usuarios_escolas #col-container #col-left,
+.taxonomy-usuarios_profissao #col-container #col-left{
+	display: none;
+}
+
+.taxonomy-usuarios_pais #col-container #col-right,
+.taxonomy-usuarios_escolas #col-container #col-right,
+.taxonomy-usuarios_profissao #col-container #col-right {
+    float: left;
+    width: 100%;
+}
+
+.wpml-title-flag img,
+.tm-queue-filter img{
+	width: 20px!important;
+	height: auto;
+}
+
+#acf-upgrade-notice{
+	display: none!important
+}
+

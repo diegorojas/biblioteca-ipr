@@ -1,0 +1,258 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bliblioteca\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-23 22:32+0000\n"
+"PO-Revision-Date: 2017-02-15 21:16+0000\n"
+"Last-Translator: Heric Reis <heric@raincake.com.br>\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. odin
+msgid "Publication"
+msgstr "パブリケーション "
+
+#. odin
+msgid "No author found"
+msgstr "著者発見"
+
+#: header.php:43 template-filtrar_autores.php:4 template-filtrar.php:4
+msgid "Content Search"
+msgstr "検索"
+
+#: header.php:61 page-perfil.php:22
+msgid "Log Out"
+msgstr "ログアウト"
+
+#: header.php:129 page-publicacoes.php:22
+msgid "Articles"
+msgstr "記事"
+
+#: single.php:41
+msgid "Choose"
+msgstr "選択します"
+
+#: single.php:41
+msgid "the language of the article"
+msgstr "記事の言語"
+
+#: single.php:70 content-veja_tambem.php:35 content-popular.php:34
+#: content.php:10 page-home.php:44 page-home.php:85
+msgid "By"
+msgstr "パー"
+
+#: single.php:79
+msgid "Published"
+msgstr "パー"
+
+#: single.php:80 content-veja_tambem.php:36 content-popular.php:35
+#: content.php:11 page-home.php:45 page-home.php:86 template-filtrar.php:48
+msgid "Year"
+msgstr "言語"
+
+#: single.php:81 template-filtrar.php:31
+msgid "Language"
+msgstr "公開済み"
+
+#: single.php:82 template-filtrar.php:65
+msgid "Month"
+msgstr "パー"
+
+#: single.php:84
+msgid "Vol"
+msgstr "ボリューム"
+
+#: single.php:85
+msgid "Number"
+msgstr "数"
+
+#: single.php:86
+msgid "Page"
+msgstr "パー"
+
+#: single.php:109
+msgid "Download"
+msgstr "ダウンロード"
+
+#: content-veja_tambem.php:2
+msgid "SEE ALSO"
+msgstr "関連項目"
+
+#: content-veja_tambem.php:38 content-popular.php:37 page-home.php:48
+msgid "Read more"
+msgstr "もっと読む"
+
+#: content-popular.php:1
+msgid "POPULAR"
+msgstr "人気のあります。"
+
+#: page-home.php:12
+msgid "NEW ACQUISITIONS"
+msgstr "関連項目"
+
+#: content-autores.php:6
+msgid "See Articles"
+msgstr "記事を見る"
+
+#: template-filtrar_autores.php:16 page-perfil.php:26
+msgid "Country"
+msgstr "国"
+
+#: footer.php:4
+msgid "PARTNERS"
+msgstr "パートナー"
+
+#: page-perfil.php:14
+msgid "You are not registered"
+msgstr "あなたは登録されていません"
+
+#: page-perfil.php:15
+msgid "Enter"
+msgstr "入力"
+
+#: page-perfil.php:16
+msgid "To access profile page you must be registered and logged in."
+msgstr "プロフィールページにアクセスするには、登録してログインする必要があります。"
+
+#: page-perfil.php:21
+msgid "Welcome"
+msgstr "ようこそ"
+
+#: page-perfil.php:23
+msgid "Edit profile"
+msgstr "プロファイルを編集します。"
+
+#: page-perfil.php:27
+msgid "School"
+msgstr "学校"
+
+#: page-perfil.php:28
+msgid "Profession"
+msgstr "職業"
+
+#: template-filtrar.php:14
+msgid "Authors"
+msgstr "著者"
+
+#: inc/template-tags.php:70
+msgid "by"
+msgstr "〜によって"
+
+#: core/helpers.php:104
+msgid "Related Posts"
+msgstr "関連記事"
+
+#: core/helpers.php:386
+msgid "404 Error"
+msgstr "404エラー"
+
+#. odin
+msgid "article"
+msgstr "記事"
+
+#. odin
+msgid "articles"
+msgstr "記事"
+
+#. odin
+msgid "no articles"
+msgstr "記事はありません。"
+
+#. odin
+msgid "Page not found"
+msgstr "ページが見つかりません"
+
+#. odin
+msgid "Email"
+msgstr "電子メール"
+
+#. odin
+msgid "Enter the library"
+msgstr "図書館に入る"
+
+#. odin
+msgid "Thank you for registration"
+msgstr "登録ありがとうございます"
+
+#. odin
+msgid "We will send you a registration confirmation link to your email."
+msgstr "あなたのメールアドレスへの登録確認リンクをお送りします。"
+
+#. odin
+msgid "Don’t have and account?"
+msgstr "アカウントをお持ちですか？"
+
+#. odin
+msgid "Click here and sign up."
+msgstr "ここをクリックしてサインアップしてください。"
+
+#. odin
+msgid ""
+"To have full access to the subject of this article you need to be registered "
+"on the site."
+msgstr "この記事の主題に完全にアクセスするには、サイトに登録する必要があります。"
+
+#. odin
+msgid "Login on the website"
+msgstr "ウェブサイトにログイン"
+
+#. odin
+msgid "or"
+msgstr "または"
+
+#. odin
+msgid "sign up"
+msgstr "サインアップ"
+
+#. odin
+msgid "January"
+msgstr "1月"
+
+#. odin
+msgid "February"
+msgstr "2月"
+
+#. odin
+msgid "March"
+msgstr "3月"
+
+#. odin
+msgid "April"
+msgstr "4月"
+
+#. odin
+msgid "May"
+msgstr "5月"
+
+#. odin
+msgid "June"
+msgstr "6月"
+
+#. odin
+msgid "July"
+msgstr "7月"
+
+#. odin
+msgid "August"
+msgstr "8月"
+
+#. odin
+msgid "September"
+msgstr "9月"
+
+#. odin
+msgid "October"
+msgstr "10月"
+
+#. odin
+msgid "November"
+msgstr "11月"
+
+#. odin
+msgid "December"
+msgstr "12月"

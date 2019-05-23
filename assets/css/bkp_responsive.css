@@ -1,0 +1,231 @@
+/**********************************
+    Monitor pequeno
+    **********************************/
+    @media screen and (max-width: 1024px) {
+    	
+    	
+    }
+
+/**********************************
+    Tablet
+    **********************************/
+    @media screen and (max-width: 992px) {
+
+    }
+    
+/**********************************
+    Mobile
+    **********************************/
+    @media screen and (max-width: 767px) {
+
+    	.box-form {
+    		max-width: 100%;
+    	}
+        ul.ap_pagination li {
+            width: 9.5% !important;
+            padding: 16px 16px !important;
+        }
+        ul.ap_english.ap_pagination.case_U.layout_H.ap_classic.by_1 {
+         margin-left: 0;
+         width: 100% !important;
+         margin-bottom: 40px;
+         margin-top: 20px;
+     }
+     .form-group.interna {
+        float: none;
+    }
+    .form-inline.interna .form-control {
+        width: 100%;
+    }
+
+    .btn.login{
+        width: 50%;
+        margin: 20px 0;
+    }
+
+    .form.login .form-control {
+        width: 100%;
+    }
+    .content-home {
+        padding-left: 15px;
+    }
+
+    .perfil h2{
+        width: 55%;
+    }
+
+    .perfil .btn{
+        margin-top: 25px !important;
+        width: 40% !important;
+        font-size: 13px !important;
+        padding: 9px!important;
+    }
+
+    .post .box-cont{
+        opacity: 1 !important;
+        width: 125px;
+    }
+    .box-f p {
+        font-size: 11px;
+    }
+
+    .box-f h3 {
+        font-size: 19px;
+    }
+
+    .site-title, .site-description {
+     padding-bottom: 0;
+     padding-top: 22px;
+ }
+
+
+ #logo {
+    background-size: 200px;
+}
+
+.search-box {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+.form-inline .form-control {
+    width: 200px;
+}
+
+#header .dropdown {
+    top: -50px;
+    float: right;
+}
+
+.gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=image]):not([type=file]){
+    line-height: 1 !important;
+    display: inline-block !important;
+}
+
+.gform_wrapper .gform_ajax_spinner{
+    display: inline-block;
+}
+
+.form.login {
+    width: 80%;
+}
+
+.chamada-2{
+    padding-bottom: 0;
+}
+
+.chamada-3{
+    margin-bottom: 30px;
+}
+
+.contato-form{
+    float: none;
+}
+
+.fale-conosco{
+    float: none;
+}
+
+.box-form {
+    padding-top: 26px;
+}
+
+.box-content {
+    margin-top: 0;
+}
+
+.data .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: 100% !important;
+}
+
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+    width: 100% !important;
+}
+
+.box-cont{
+    opacity: 1;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+h4.entry-title.titulo-post{
+    font-size: 0px;
+}
+}
+
+
+/**********************************
+    Tablet Vertical
+    **********************************/
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+        .post .box-cont{
+            opacity: 1;
+        }
+
+        .box-cont{
+            opacity: 1;
+        }
+
+        .box-form{
+            max-width: 100%;
+        }
+
+        .box-content{
+            margin-top: 0;
+        }
+
+        .chamada-2{
+            padding-bottom: 0;
+        }
+
+        .chamada-3{
+            margin-bottom: 30px;
+        }
+
+        .form-group.interna, .form-inline.interna .form-control{
+            width: 100%;
+        }
+
+        ul.ap_english.ap_pagination.case_U.layout_H.ap_classic.by_1 {
+            margin-left: 19PX;
+            width: 96%;
+            margin-top: 25px;
+        }
+
+        ul.ap_pagination li {
+            height: 28px !important;
+        }
+
+        .archive .box-cont{
+            margin: 0 0 0 13px;
+            width: 70%;
+        }
+
+        .data .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+            width: 100% !important;
+        }
+
+        .post-type-archive-autores ul.ap_english.ap_pagination.case_U.layout_H.ap_classic.by_1{
+            margin-bottom: 40px ;
+        }
+    }
+
+/**********************************
+    Tablet Horizontal
+    **********************************/
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+        .post .box-cont{
+            opacity: 1;
+        }
+
+        .box-cont{
+            opacity: 1;
+        }
+
+        ul.ap_english.ap_pagination.case_U.layout_H.ap_classic.by_1 {
+            margin-left: 55PX;
+            width: 88%;
+        }
+
+    }

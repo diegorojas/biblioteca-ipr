@@ -1,0 +1,266 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-22 00:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: header.php:43 template-filtrar_autores.php:4 template-filtrar.php:4
+msgid "Search"
+msgstr ""
+
+#: header.php:61 page-perfil.php:22
+msgid "Log Out"
+msgstr ""
+
+#: header.php:129 page-publicacoes.php:22
+msgid "Articles"
+msgstr ""
+
+
+#: single.php:41
+msgid "Choose"
+msgstr ""
+
+#: single.php:41
+msgid "the language of the article"
+msgstr ""
+
+#: single.php:70 content-veja_tambem.php:35 content-popular.php:34
+#: content.php:10 page-home.php:44 page-home.php:85
+msgid "By"
+msgstr ""
+
+#: single.php:79
+msgid "Published"
+msgstr ""
+
+#: single.php:80 content-veja_tambem.php:36 content-popular.php:35
+#: content.php:11 page-home.php:45 page-home.php:86 template-filtrar.php:48
+msgid "Year"
+msgstr ""
+
+#: single.php:81 template-filtrar.php:31
+msgid "Language"
+msgstr ""
+
+#: single.php:82 template-filtrar.php:65
+msgid "Month"
+msgstr ""
+
+#: single.php:84
+msgid "Vol"
+msgstr ""
+
+#: single.php:85
+msgid "Number"
+msgstr ""
+
+#: single.php:86
+msgid "Page"
+msgstr ""
+
+#: single.php:109
+msgid "Download"
+msgstr ""
+
+#: content-veja_tambem.php:2
+msgid "SEE ALSO"
+msgstr ""
+
+#: content-veja_tambem.php:38 content-popular.php:37 page-home.php:48
+msgid "Read more"
+msgstr ""
+
+#: content-popular.php:1
+msgid "POPULAR"
+msgstr ""
+
+#: page-home.php:12
+msgid "NEW ACQUISITIONS"
+msgstr ""
+
+#: content-autores.php:6
+msgid "See Articles"
+msgstr ""
+
+#: template-filtrar_autores.php:16 page-perfil.php:26
+msgid "Country"
+msgstr ""
+
+#: footer.php:4
+msgid "PARTNERS"
+msgstr ""
+
+#: page-perfil.php:14
+msgid "You are not registered"
+msgstr ""
+
+#: page-perfil.php:15
+msgid "Enter"
+msgstr ""
+
+#: page-perfil.php:16
+msgid "To access profile page you must be registered and logged in."
+msgstr ""
+
+#: page-perfil.php:21
+msgid "Welcome"
+msgstr ""
+
+#: page-perfil.php:23
+msgid "Edit profile"
+msgstr ""
+
+#: page-perfil.php:27
+msgid "School"
+msgstr ""
+
+#: page-perfil.php:28
+msgid "Profession"
+msgstr ""
+
+#: template-filtrar.php:14
+msgid "Authors"
+msgstr ""
+
+#: inc/template-tags.php:70
+msgid "by"
+msgstr ""
+
+#: core/helpers.php:104
+msgid "Related Posts"
+msgstr ""
+
+#: core/helpers.php:386
+msgid "404 Error"
+msgstr ""
+
+#. odin
+msgid "article"
+msgstr ""
+
+#. odin
+msgid "articles"
+msgstr ""
+
+#. odin
+msgid "no articles"
+msgstr ""
+
+#. odin
+msgid "Page not found"
+msgstr ""
+
+#. odin
+msgid "Email"
+msgstr ""
+
+#. odin
+msgid "Enter in the library"
+msgstr ""
+
+#. odin
+msgid "Thank you for registration"
+msgstr ""
+
+#. odin
+msgid "We will send you a registration confirmation link to your email."
+msgstr ""
+
+#. odin
+msgid "Enter"
+msgstr ""
+
+#. odin
+msgid "Have an account?"
+msgstr ""
+
+#. odin
+msgid "Click here and sign up."
+msgstr ""
+
+#. odin
+msgid "To have full access to the subject of this article you need to be registered on the site."
+msgstr ""
+
+#. odin
+msgid "Login on the website"
+msgstr ""
+
+#. odin
+msgid "or"
+msgstr ""
+
+#. odin
+msgid "sign up"
+msgstr ""
+
+#. odin
+msgid "January"
+msgstr ""
+
+#. odin
+msgid "February"
+msgstr ""
+
+#. odin
+msgid "March"
+msgstr ""
+
+#. odin
+msgid "April"
+msgstr ""
+
+#. odin
+msgid "May"
+msgstr ""
+
+#. odin
+msgid "June"
+msgstr ""
+
+#. odin
+msgid "July"
+msgstr ""
+
+#. odin
+msgid "August"
+msgstr ""
+
+#. odin
+msgid "September"
+msgstr ""
+
+#. odin
+msgid "October"
+msgstr ""
+
+#. odin
+msgid "November"
+msgstr ""
+
+#. odin
+msgid "December"
+msgstr ""
+
+#. odin
+msgid "Publication"
+msgstr ""
+
+#. odin
+msgid "No author found"
+msgstr ""
+
+
+
+

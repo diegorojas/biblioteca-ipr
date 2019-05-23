@@ -1,0 +1,262 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-23 22:32+0000\n"
+"PO-Revision-Date: 2017-04-03 02:16+0000\n"
+"Last-Translator: Heric Reis <heric@raincake.com.br>\n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es-ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. odin
+msgid "Publication"
+msgstr "Publicación "
+
+#. odin
+msgid "No author found"
+msgstr "No se encontró ningún autor"
+
+#: header.php:43 template-filtrar_autores.php:4 template-filtrar.php:4
+msgid "Content Search"
+msgstr "Búsqueda"
+
+#: header.php:61 page-perfil.php:22
+msgid "Log Out"
+msgstr "Cerrar sesión"
+
+#: header.php:129 page-publicacoes.php:22
+msgid "Articles"
+msgstr "Artículos"
+
+#: single.php:41
+msgid "Choose"
+msgstr "Elegir"
+
+#: single.php:41
+msgid "the language of the article"
+msgstr "el idioma del artículo"
+
+#: single.php:70 content-veja_tambem.php:35 content-popular.php:34
+#: content.php:10 page-home.php:44 page-home.php:85
+msgid "By"
+msgstr "Por"
+
+#: single.php:79
+msgid "Published"
+msgstr "Publicado"
+
+#: single.php:80 content-veja_tambem.php:36 content-popular.php:35
+#: content.php:11 page-home.php:45 page-home.php:86 template-filtrar.php:48
+msgid "Year"
+msgstr "Año"
+
+#: single.php:81 template-filtrar.php:31
+msgid "Language"
+msgstr "Idioma"
+
+#: single.php:82 template-filtrar.php:65
+msgid "Month"
+msgstr "Mes"
+
+#: single.php:84
+msgid "Vol"
+msgstr "Vol"
+
+#: single.php:85
+msgid "Number"
+msgstr "Número"
+
+#: single.php:86
+msgid "Page"
+msgstr "Página"
+
+#: single.php:109
+msgid "Download"
+msgstr "Hacer o descargar"
+
+#: content-veja_tambem.php:2
+msgid "SEE ALSO"
+msgstr "VER TAMBIEN"
+
+#: content-veja_tambem.php:38 content-popular.php:37 page-home.php:48
+msgid "Read more"
+msgstr "Leer más"
+
+#: content-popular.php:1
+msgid "POPULAR"
+msgstr "POPULAR"
+
+#: page-home.php:12
+msgid "NEW ACQUISITIONS"
+msgstr "NUEVAS ADQUISICIONES"
+
+#: content-autores.php:6
+msgid "See Articles"
+msgstr "Ver artículos"
+
+#: template-filtrar_autores.php:16 page-perfil.php:26
+msgid "Country"
+msgstr "País"
+
+#: footer.php:4
+msgid "PARTNERS"
+msgstr "ASOCIADO"
+
+#: page-perfil.php:14
+msgid "You are not registered"
+msgstr "Usted no está registrado"
+
+#: page-perfil.php:15
+msgid "Enter"
+msgstr "Introducir"
+
+#: page-perfil.php:16
+msgid "To access profile page you must be registered and logged in."
+msgstr ""
+"Para acceder a la página de perfil que necesitas estar cadastrado y hacer "
+"login"
+
+#: page-perfil.php:21
+msgid "Welcome"
+msgstr "Bienvenido"
+
+#: page-perfil.php:23
+msgid "Edit profile"
+msgstr "Editar perfil"
+
+#: page-perfil.php:27
+msgid "School"
+msgstr "Nombre de la escuela"
+
+#: page-perfil.php:28
+msgid "Profession"
+msgstr "Profesión"
+
+#: template-filtrar.php:14
+msgid "Authors"
+msgstr "Autores"
+
+#: inc/template-tags.php:70
+msgid "by"
+msgstr "Por"
+
+#: core/helpers.php:104
+msgid "Related Posts"
+msgstr "Artículos Relacionados"
+
+#: core/helpers.php:386
+msgid "404 Error"
+msgstr "Error 404"
+
+#. odin
+msgid "article"
+msgstr "artículo"
+
+#. odin
+msgid "articles"
+msgstr "artículos"
+
+#. odin
+msgid "no articles"
+msgstr "No hay artículos"
+
+#. odin
+msgid "Page not found"
+msgstr "Página no encontrada"
+
+msgid "Email"
+msgstr "Email"
+
+#. odin
+msgid "Enter the library"
+msgstr "Entrar en la biblioteca"
+
+#. odin
+msgid "Thank you for registration"
+msgstr "Gracias por registrarse"
+
+#. odin
+msgid "We will send you a registration confirmation link to your email."
+msgstr ""
+"Le enviaremos un enlace de confirmación de registro a su correo electrónico."
+
+#. odin
+msgid "Don’t have and account?"
+msgstr "¿Tener una cuenta?"
+
+#. odin
+msgid "Click here and sign up."
+msgstr "Haga clic aquí y regístrese."
+
+#. odin
+msgid ""
+"To have full access to the subject of this article you need to be registered "
+"on the site."
+msgstr ""
+"Para tener acceso completo al tema de este artículo es necesario estar "
+"registrado en el sitio."
+
+#. odin
+msgid "Login on the website"
+msgstr "Iniciar sesión en el sitio web"
+
+#. odin
+msgid "or"
+msgstr "o"
+
+#. odin
+msgid "sign up"
+msgstr "regístrate"
+
+#. odin
+msgid "January"
+msgstr "Enero"
+
+#. odin
+msgid "February"
+msgstr "Febrero"
+
+#. odin
+msgid "March"
+msgstr "Marzo"
+
+#. odin
+msgid "April"
+msgstr "Abril"
+
+#. odin
+msgid "May"
+msgstr "Mayo"
+
+#. odin
+msgid "June"
+msgstr "Junio"
+
+#. odin
+msgid "July"
+msgstr "Julio"
+
+#. odin
+msgid "August"
+msgstr "Agosto"
+
+#. odin
+msgid "September"
+msgstr "Septiembre"
+
+#. odin
+msgid "October"
+msgstr "Octubre"
+
+#. odin
+msgid "November"
+msgstr "Noviembre"
+
+#. odin
+msgid "December"
+msgstr "Diciembre"

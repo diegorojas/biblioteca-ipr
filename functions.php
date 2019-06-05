@@ -341,7 +341,7 @@ remove_menu_page('edit.php'); // posts
 //remove_menu_page('edit.php?post_type=page'); // pagina
 remove_menu_page('edit-comments.php'); // comentario
 	
-	remove_menu_page('themes.php'); // tema
+//	remove_menu_page('themes.php'); // tema
 //	remove_menu_page('plugins.php'); // plugins
 	//remove_menu_page('users.php'); // usuarios
 //	remove_menu_page('tools.php'); // ferramentas
@@ -359,7 +359,7 @@ if ( !is_super_admin() ) {
 
 	remove_menu_page( 'wpcf7' ); 
 }
-//remove_submenu_page( 'themes.php', 'widgets.php' );
+remove_submenu_page( 'themes.php', 'widgets.php' );
 }
 
 

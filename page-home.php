@@ -158,7 +158,7 @@
 														
 					</div>
 					
-					<?php // get_template_part( 'content', 'popular' ); ?>
+					<?php get_template_part( 'content', 'popular' ); ?>
 					
 				</div>
 

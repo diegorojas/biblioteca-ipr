@@ -52,14 +52,9 @@
 					<form method="get" id="searchform" class="form-inline" action="<?php echo esc_url( home_url( '/' ) ); ?>" role="search">
 						<div class="form-group">
 
-			<?php if ( qtranxf_getLanguage()=='pb' ){?>
-					<input type="text" placeholder="<?php printf( __( 'Content Search', 'odin' )); ?>" class="form-control odin-tooltip" name="s" id="s" data-toggle="tooltip" data-placement="bottom" title="Você também pode usar Ctrl+F/Cmd+F para buscar palavras nesta página" />
-				<?php }else{ ?>
+
 					<input type="text" placeholder="<?php printf( __( 'Content Search', 'odin' )); ?>" class="form-control odin-tooltip" name="s" id="s" data-toggle="tooltip" data-placement="bottom" title="You can also use Ctrl+F/Cmd+F to find words on this page" />
-				<?php } ?>
-
-
-							
+		
 							<input type="hidden" name="post_type" value="artigos" />
 							<input type="submit" class="btn btn-search" value="<?php esc_attr_e( 'Search', 'odin' ); ?>" />
 						</div>
@@ -81,12 +76,7 @@
 						  </ul>
 						  
 						</div>
-						
-						<?php
-							echo qtranxf_generateLanguageSelectCode('both');
-							//echo qtranxf_getLanguage();
-						?>						
-
+										
 						<div class="menu-global">
 <?php
 	
@@ -94,9 +84,8 @@
 
     $current_user = wp_get_current_user();
     if ( 0 == $current_user->ID ) {
-		echo '<a class="link-menu" href="/login">'; printf( __( 'Enter', 'odin' )); echo '</a>
-			  <a class="link-menu" href="/register">'; printf( __( 'sign up', 'odin' )); echo '</a>';
-
+		echo '<a class="link-menu" href="'. esc_url( home_url( '/login' ) ).'">'; printf( __( 'Enter', 'odin' )); echo '</a>
+			  <a class="link-menu" href="'. esc_url( home_url( '/register' ) ).'">'; printf( __( 'sign up', 'odin' )); echo '</a>';
     }else{
 
 		echo '<a class="link-menu" href="/profile" style="font-size: 16px; line-height: 18px; display: block; margin-bottom: -10px;"><strong>' . $current_user->display_name.'</strong></a>

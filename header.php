@@ -63,7 +63,7 @@
 				
 					<div class="col-md-2 col-xs-4 idioma">
 
-				
+				<!-- Chamada direta do codigo gerador do menu de idiomas do plugin qTranslateX -->
 						<?php echo qtranxf_generateLanguageSelectCode('both'); ?>
 						
 						<div class="dropdown  language-dropdown">

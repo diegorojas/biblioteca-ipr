@@ -88,8 +88,8 @@
 			  <a class="link-menu" href="'. esc_url( home_url( '/register' ) ).'">'; printf( __( 'sign up', 'odin' )); echo '</a>';
     }else{
 
-		echo '<a class="link-menu" href="/profile" style="font-size: 16px; line-height: 18px; display: block; margin-bottom: -10px;"><strong>' . $current_user->display_name.'</strong></a>
-		      <a class="link-menu" href="'.wp_logout_url($_SERVER['REQUEST_URI']).'"><small style="font-size: 12px; position: relative; bottom: -8px; color: #ad8766;">'; 
+		echo '<a class="link-menu" href="'. esc_url( home_url( '/profile' ) ).'" style="font-size: 16px; line-height: 18px; display: block; margin-bottom: -10px;"><strong>' . $current_user->display_name.'</strong></a>
+		      <a class="link-menu" href="'. wp_logout_url( home_url('/') ).'"><small style="font-size: 12px; position: relative; bottom: -8px; color: #ad8766;">'; 
 		      printf( __( 'Log Out', 'odin' ));
 				echo '</small></a>';
 	    

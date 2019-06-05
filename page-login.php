@@ -9,7 +9,7 @@
 						<?php
 					
 							if(is_user_logged_in()){
-									echo '<meta http-equiv="refresh" content="0; url=http://pedroprado.com.br/profile" />';
+									echo '<meta http-equiv="refresh" content="0; url='. esc_url( home_url( '/profile' ) ).'" />';
 									//echo '<h2 class="bold">'; printf( __( 'You are already logged in.', 'odin' )); echo '</h2>';
 									//echo '<p>You want to <strong><a href="'.wp_logout_url( get_permalink() ).'">log out?</a></strong></p>';
 
@@ -20,7 +20,7 @@
 									login_with_ajax();
 								?>
 		
-								<p><?php printf( __( 'Don’t have and account?', 'odin' ));  ?> <a class="bold" href="/register"> <?php printf( __( 'Click here and sign up.', 'odin' ));  ?></a></p>
+								<p><?php printf( __( 'Don’t have and account?', 'odin' ));  ?> <a class="bold" href="<?php echo home_url('/register'); ?>"> <?php printf( __( 'Click here and sign up.', 'odin' ));  ?></a></p>
 						<?php } ?>
 									</div>	
 				</div>

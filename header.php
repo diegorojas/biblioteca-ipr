@@ -64,7 +64,7 @@
 					<div class="col-md-2 col-xs-4 idioma">
 
 				
-						<?php do_action('icl_language_selector'); ?>
+						<?php echo qtranxf_generateLanguageSelectCode('both'); ?>
 						
 						<div class="dropdown  language-dropdown">
 						  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">

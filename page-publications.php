@@ -11,7 +11,7 @@
 						foreach ( $terms as $term ) {
 							?>
 							<div class="col-md-3 col-sm-6 col-xs-6">
-								<a href="/articles/?publicacao=<?php echo $term->slug ?>" class="publicacoes">
+								<a href="<?php echo home_url('/articles'); ?>/?publicacao=<?php echo $term->slug ?>" class="publicacoes">
 									<div class="text-publicacoes">
 										<?php
 

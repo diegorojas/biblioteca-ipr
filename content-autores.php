@@ -52,5 +52,5 @@
 					
 						wp_reset_query(); ?></a>
 			</div>
-			<a href="/articles?autor=<?php echo get_the_ID(); ?>" class=" autores-btn btn"><?php printf( __( 'See Articles', 'odin' ));?></a>		
+			<a href="<?php echo home_url('/articles'); ?>?autor=<?php echo get_the_ID(); ?>" class=" autores-btn btn"><?php printf( __( 'See Articles', 'odin' ));?></a>		
 </div>

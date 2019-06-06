@@ -2561,10 +2561,10 @@ echo '</tbody>
 }
 
 
-add_filter( 'login_headerurl', 'custom_loginlogo_url' );
-function custom_loginlogo_url($url) {
-    return 'http://pedroprado.com.br/';
-}
+// add_filter( 'login_headerurl', 'custom_loginlogo_url' );
+// function custom_loginlogo_url($url) {
+//    return 'http://pedroprado.com.br/';
+// }
 
 //add_filter('wp_authenticate_user', 'myplugin_auth_login',10,2);
 

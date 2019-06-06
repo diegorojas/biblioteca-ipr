@@ -8,6 +8,7 @@
 		<div class="box-cont">
 			<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
 			<?php //if(get_field('fonte')){ echo '<span>';  echo get_field('fonte').'</span>';} ?>
+					<span class="author-name">
 					<?php if(get_field('nome_autor')){ $k = 0;
 						$post_objects = get_field('nome_autor');
 						asort($post_objects);
@@ -34,6 +35,7 @@
 						
 					}		
 					?>
+				</span>
 			<?php //if(get_field('data_exemplar')){echo '<span>';  echo substr(get_field('data_exemplar'),0,4).'</span>';} ?>
 		</div>	
 	</a>

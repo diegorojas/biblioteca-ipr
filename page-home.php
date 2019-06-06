@@ -58,8 +58,7 @@
 									$args = array('post_type' => 'autores', 'meta_key' => 'id','meta_value'   => id_aut(get_field('id')),'meta_compare' => 'IN', 'orderby' => 'title', 'order'   => 'ASC'); $wp_query = new WP_Query( $args ); if ( $wp_query->have_posts() ) : while ( $wp_query->have_posts() ) : $wp_query->the_post(); $k++; if($k <= 2){the_title(); } if($k == 2){echo ' et al.';}elseif($k == $wp_query->post_count){echo '';}elseif($k < 2){echo '; ';} endwhile; endif; wp_reset_query(); 			
 	
 
-								}		
-				?>
+								} ?>
 											<?php // if(get_field('data_exemplar')){echo '<span>';   echo  substr(get_field('data_exemplar'),0,4).'</span>';} ?>
 								<?php echo '<p>'.strip_tags(wpautop(html_entity_decode(excerpt(35)))).'</p>'; ?>
 
@@ -114,6 +113,7 @@
 												<div class="box-cont">
 													<h4><?php the_title(); ?></h4>
 													<?php // if(get_field('fonte')){echo '<span>';  echo ''. get_field('fonte').'</span>';} ?>
+								<span class="author-name">
 								<?php if(get_field('nome_autor')){
 									$post_objects = get_field('nome_autor');$k = 0;
 									asort($post_objects);
@@ -126,8 +126,8 @@
 									$k = 0;
 									$args = array('post_type' => 'autores', 'meta_key' => 'id','meta_value'   => id_aut(get_field('id')),'meta_compare' => 'IN', 'orderby' => 'title', 'order'   => 'ASC'); $wp_query = new WP_Query( $args ); if ( $wp_query->have_posts() ) : while ( $wp_query->have_posts() ) : $wp_query->the_post(); $k++; if($k <= 2){the_title(); } if($k == 2){echo ' et al.';}elseif($k == $wp_query->post_count){echo '';}elseif($k < 2){echo '; ';} endwhile; endif; wp_reset_query(); 			
 
-								}		
-				?>
+								} ?>
+								</span>
 													
 													<?php // if(get_field('data_exemplar')){echo '<span>'; echo ''. get_field('data_exemplar').'</span>';} ?>
 												</div>	

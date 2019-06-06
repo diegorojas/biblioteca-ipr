@@ -26,7 +26,8 @@ require_once get_template_directory() . '/inc/optimize.php';
 /** Custom template tags. */
 require_once get_template_directory() . '/inc/template-tags.php';
 
-
+/** ACF PRO Fields */
+//require_once get_template_directory() . '/inc/fields.php';
 
 
 

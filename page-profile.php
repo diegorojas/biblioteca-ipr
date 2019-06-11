@@ -35,7 +35,7 @@
 			</div>
 
 		</div>
-			<?php get_template_part( 'content', 'veja_tambem' ); ?>
+			<?php // get_template_part( 'content', 'popular' ); ?>
 
 	</div><!-- #content -->
 </div><!-- #primary -->

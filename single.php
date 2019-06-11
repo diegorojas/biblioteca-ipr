@@ -1,6 +1,11 @@
 <?php get_header(); ?>
 
-<div id="primary" >	
+<div id="primary" >
+<div class="box-title">
+	<div class="container">
+<h2 class="single-title"><?php the_title();?></h2>
+	</div>
+</div>
 	<div id="content" class="site-content" role="main">
 		<div class="container">
 			<div class="row">
@@ -56,8 +61,7 @@ if(has_term('it','idioma')){ echo '<li class="li-it bt-traduzir" data-lang="it">
 
 							</div>
 							<div class="the-post-content">
-								<h4><?php the_title();?></h4>
-								<h6><strong><?php printf( __( 'By', 'odin' )); echo ': ';?>
+								<h3><strong><?php printf( __( 'By', 'odin' )); echo ': ';?>
 								<?php if(get_field('nome_autor')){
 									$post_objects = get_field('nome_autor');
 								    foreach( $post_objects as $post_object):
@@ -73,7 +77,7 @@ if(has_term('it','idioma')){ echo '<li class="li-it bt-traduzir" data-lang="it">
 								}		
 								?>
 								
-								</strong></h6>
+								</strong></h3>
 
 						</div>
 					</p>
@@ -145,7 +149,7 @@ if(has_term('it','idioma')){ echo '<li class="li-it bt-traduzir" data-lang="it">
 						$current_user = wp_get_current_user();
 						if ( 0 == $current_user->ID ) {
 							echo '<div class="box-sem-login">';
-							printf( __( 'To have full access to the subject of this article you need to be registered on the site.', 'odin' )); echo'<br><a href="/login"><strong>';printf( __( 'Login on the website', 'odin' )); echo'</strong></a>';printf( __( 'or', 'odin' ));echo'  <a href="/register"><strong>'; printf( __( 'sign up', 'odin' )); echo'</strong></a>.';
+							printf( __( 'To have full access to the subject of this article you need to be registered on the site.', 'odin' )); echo'<br><a href="'. esc_url( home_url( '/login' ) ).'"><strong>';printf( __( 'Login on the website ', 'odin' )); echo'</strong></a>';printf( __( 'or', 'odin' ));echo'  <a href="'. esc_url( home_url( '/register' ) ).'"><strong>'; printf( __( 'sign up', 'odin' )); echo'</strong></a>.';
 						echo '</div>';
 					} else {
 						echo wpautop(html_entity_decode(get_post_field('post_content', get_the_id())));
@@ -158,7 +162,7 @@ if(has_term('it','idioma')){ echo '<li class="li-it bt-traduzir" data-lang="it">
 
 	</div>
 
-	<?php get_template_part( 'content', 'veja_tambem' ); ?>
+	<?php get_template_part( 'content', 'popular' ); ?>
 	
 </div>
 

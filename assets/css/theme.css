@@ -296,11 +296,11 @@ ul#qtranslate-chooser{
     }
     .menu{
     	background: url("../images/menu.png") center ;
-    	height: 120px;
-    	padding: 37px 0;
+    	height: 100px;
+    	padding: 26px 0;
     	width: 100%;
     	text-align: center;
-    	margin-bottom: 43px;
+    	margin-bottom: 40px;
     }
     .menu a{
     	color: #ad8766;
@@ -308,6 +308,21 @@ ul#qtranslate-chooser{
     	text-align: center;
     	font-weight: 600;
     }
+
+    .single .menu{
+        margin-bottom: 0px;
+    }
+
+    .single h2.single-title {
+        color: #FFF;
+        padding: 0px 0px 12px;
+    }
+
+    .box-title {
+        background: #a3955d;
+    }
+
+
     .nav>li>a:hover, .nav>li>a:focus{
     	background: transparent;
     	color: #444444;
@@ -340,9 +355,9 @@ ul#qtranslate-chooser{
     
     .pagination>li>a, ul.page-numbers>li>a, .pagination>li>span, ul.page-numbers>li>span,
     .pagination-alt .page-numbers{
-    	color: #c9c9c9!important;
-    	background-color: #fff!important;
-    	border: 2px #c9c9c9 solid!important;
+    	color: #FFF!important;
+    	background-color: #aab2bd!important;
+    	border: none!important;
     	border-radius: 100%!important;
     	font-size: 18px;
 	    padding: 4px 0px;
@@ -355,8 +370,8 @@ ul#qtranslate-chooser{
     
     ul.page-numbers>li>span.current,
     .pagination-alt .page-numbers.current{
-		color: #777!important;
-		border-color: #777!important;
+		color: #FFF!important;
+        background-color: #444!important;
     }
     
     .pagination, ul.page-numbers,
@@ -376,7 +391,7 @@ ul#qtranslate-chooser{
 
     ul.page-numbers>li>a:hover,
     .pagination-alt a:hover{
-    	opacity: 0.30;
+    	background-color: #666!important;
     }
     .box-quem-somos h3{
     	font-size: 30px;
@@ -411,19 +426,19 @@ ul#qtranslate-chooser{
     }
     .bg-banner{
     	width: 100%;
-    	height: 400px;
+    	height: 260px;
     	position: relative;
     }
 
     .bg-banner .banner-content{
     	position: absolute;
-    	bottom: 40px;
+    	bottom: 20px;
     	width: 100%;
     }
     
     .bg-banner h2{
-    	font-size: 60px;
-    	margin: 0px;
+    	font-size: 44px;
+    	margin: 0px 0px 30px;
     	color: #fff;
     }
     .titulo-post a{
@@ -721,7 +736,7 @@ ul#qtranslate-chooser{
     	width: 70%;	    
     }
     .box-post{
-    	padding-top: 60px;
+    	padding-top: 30px;
     }
     .box-cont{
     	opacity: 1;
@@ -904,19 +919,19 @@ ul#qtranslate-chooser{
     }
 
     .home.btn{
-    	width: 132px;
+    	width: 143px;
     	height: auto;
-    	border: 2px solid #aab2bd;
-    	padding: 5px!important;
+    	background:#aab2bd;
+        color: #fff;
+    	padding: 7px;
     	margin: 0;
     	display: block;
-    	font-size: 12px;
+    	font-size: 14px;
+        border: none;
     }
-    
-    .home.btn-normal{
-    	font-size: 16px;
-    	width: 176px;
-    	padding: 7px;
+
+    .home.btn:hover{
+        background:#666;
     }
 
     .perfil .btn{
@@ -1640,9 +1655,6 @@ p.login-submit {
 	font-weight: 700;
 	font-family: times;
 }
-.home-page h3{
-	font-weight: 700;
-}
 .box-f{
 	padding-top: 20px;
 }
@@ -1791,10 +1803,10 @@ ul.ap_pagination li a{
 	width: 80px;
 	display: inline-block;
 	max-width: 100%;
-	padding-left: 3px;
-	top: -5px;
+	padding-left: 5px;
+	top: 0px;
 	position: relative;
-	font-size: 20px;
+	font-size: 18px;
 	font-family: times;
 	line-height: 22px;
 	letter-spacing: 0.04em;
@@ -1835,3 +1847,18 @@ ul.ap_pagination li a{
 	color: #ad8766!important
 }
 	
+ul.ap_english.ap_pagination.case_U.layout_H.ap_classic {
+display: none!important;
+}
+
+
+
+.cont-box {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.cont-box:hover {
+  box-shadow: 0 8px 17px rgba(0,0,0,0.25), 0 8px 8px rgba(0,0,0,0.22);
+}
+

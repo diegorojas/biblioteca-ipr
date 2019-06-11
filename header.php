@@ -114,7 +114,7 @@
 			$image = get_field('destaque_imagem');
 
 			if (!empty($image)): ?>
-			<div class="bg-banner" style="background: url(<?php echo $image; ?>) center; background-size: cover;">
+			<div class="bg-banner" style="background: url(<?php echo $image; ?>) center bottom; background-size: cover;">
 				<div class="banner-content">
 					<div class="container">
 						<h2><?php the_title();?></h2>
@@ -125,7 +125,7 @@
 	}elseif(is_archive()){
 		$image = wp_get_attachment_image_url( get_post_meta(12,'destaque_imagem')[0], 'full');
 	?>
-		<div class="bg-banner" style="background: url(<?php echo $image; ?>) center; background-size: cover;">
+		<div class="bg-banner" style="background: url(<?php echo $image; ?>) center bottom; background-size: cover;">
 				<div class="banner-content">
 					<div class="container">
 						<?php
@@ -168,7 +168,7 @@
 	}elseif(is_search()){
 		$image = get_field('destaque_imagem',12);
 	?>
-		<div class="bg-banner" style="background: url(<?php echo $image; ?>) center; background-size: cover;">
+		<div class="bg-banner" style="background: url(<?php echo $image; ?>) center bottom; background-size: cover;">
 				<div class="banner-content">
 					<div class="container">
 						<h2><?php printf( __( 'Search', 'odin' ));?></h2>
@@ -179,7 +179,7 @@
 	}else{
 		$image = get_field('destaque_imagem',12);
 	?>
-		<div class="bg-banner" style="background: url(<?php echo $image; ?>) center; background-size: cover;">
+		<div class="bg-banner" style="background: url(<?php echo $image; ?>) center bottom; background-size: cover;">
 				<div class="banner-content">
 					<div class="container">
 						<h2><?php the_title(); ?></h2>

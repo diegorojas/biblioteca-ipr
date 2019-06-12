@@ -313,15 +313,23 @@ ul#qtranslate-chooser{
         margin-bottom: 0px;
     }
 
+    .single .menu.in-footer{
+        margin-top: 40px;
+    }
+
     .single h2.single-title {
         color: #FFF;
         padding: 0px 0px 12px;
+        letter-spacing: 0.02em;
     }
 
     .box-title {
         background: #a3955d;
     }
 
+    #footer.with-menu {
+        margin-top: 0px!important;
+    }
 
     .nav>li>a:hover, .nav>li>a:focus{
     	background: transparent;
@@ -360,7 +368,7 @@ ul#qtranslate-chooser{
     	border: none!important;
     	border-radius: 100%!important;
     	font-size: 18px;
-	    padding: 4px 0px;
+	    padding: 5px 0px;
 	    margin-left: 10px;
 	    width: 36px;
 	    height: 36px;

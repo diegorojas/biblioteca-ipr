@@ -24,8 +24,33 @@
 </div>
 
 </div>
+<div class="menu in-footer">
+	<div class="container">
+		<div class="row">
+			<nav id="main-navigation" role="navigation"  class="col-md-12">
 
-<footer id="footer" role="contentinfo">
+				<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'odin' ); ?>"><?php _e( 'Skip to content', 'odin' ); ?></a>
+
+					<div class="navbar-main-navigation">
+					<?php
+						wp_nav_menu(
+							array(
+								'theme_location' => 'main-menu',
+								'depth'          => 2,
+								'container'      => false,
+								'menu_class'     => 'nav navbar-nav col-md-12',
+								'fallback_cb'    => 'Odin_Bootstrap_Nav_Walker::fallback',
+								'walker'         => new Odin_Bootstrap_Nav_Walker()
+							)
+						);
+					?>
+					</div><!-- .navbar-collapse -->
+
+				</nav><!-- #main-menu -->
+			</div>
+		</div>
+	</div>
+<footer id="footer" role="contentinfo" class="with-menu">
 	<div class="container">	
 		<div class="row">
 			<div class="col-md-4 col-sm-4 col-xs-12 box-f">

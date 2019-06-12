@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header('single'); ?>
 
 <div id="primary" >
 <div class="box-title">
@@ -176,4 +176,4 @@ if(has_term('it','idioma')){ echo '<li class="li-it bt-traduzir" data-lang="it">
 </div><!-- #content -->
 </div><!-- #primary -->
 
-<?php get_footer();
+<?php get_footer('single');

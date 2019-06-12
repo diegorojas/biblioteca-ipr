@@ -14,10 +14,15 @@
 								<a href="<?php echo home_url('/articles'); ?>/?publicacao=<?php echo $term->slug ?>" class="publicacoes">
 									<div class="text-publicacoes">
 										<?php
-
 										$image = get_field('capa_publicacao', 'publicacao_'.$term->term_id);
-										echo '<img src="'.$image['sizes']['medium'].'" />';
 										?>
+												<?php if( get_field('capa_publicacao', 'publicacao_'.$term->term_id) ){
+													echo '<img src="'.$image['sizes']['medium'].'" />';
+
+												}else{
+													echo '<img src="'.get_first_image().'">';
+												} ?>
+
 										<p class="bold"><?php echo $term->name  ?></p>
 										<p><?php echo $term->count ?> <?php printf( __( 'Articles', 'odin' ));?></p>
 									</div>

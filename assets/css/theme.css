@@ -1013,12 +1013,12 @@ ul#qtranslate-chooser{
 
     .post .box-cont{
     	top: 0;
-    	width: 85%;
+    	width: 90%;
     	margin: 0;
-    	left: 11%;
+    	left: 10%;
     	top: 0%;
     	height: auto;
-    	padding: 10px 0;
+    	padding: 0;
     	pointer-events: none;
     	font-size: 13px;
     }
@@ -1136,6 +1136,7 @@ p.login-submit {
         float: left;
         padding: 20px;
         margin: 10px 10px;
+        overflow: hidden;
     }
 
     .single-content{

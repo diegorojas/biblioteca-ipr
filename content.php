@@ -1,12 +1,12 @@
 <div class="recent post cont-box">
 	<a href="<?php the_permalink(); ?>">
-		<?php if( has_post_thumbnail() ){
-			the_post_thumbnail();
-		}else{
-			echo '<img src="'.get_first_image().'">';
-		} ?>
+		<?php // if( has_post_thumbnail() ){
+			// the_post_thumbnail();
+		// }else{
+		//	echo '<img src="'.get_first_image().'">';
+		// } ?>
 		<div class="box-cont">
-			<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+				<h4><?php the_title(); ?></h4>
 			<?php //if(get_field('fonte')){ echo '<span>';  echo get_field('fonte').'</span>';} ?>
 					<span class="author-name">
 					<?php if(get_field('nome_autor')){ $k = 0;
@@ -38,5 +38,6 @@
 				</span>
 			<?php //if(get_field('data_exemplar')){echo '<span>';  echo substr(get_field('data_exemplar'),0,4).'</span>';} ?>
 		</div>	
-	</a>
+</a>	
 </div>
+

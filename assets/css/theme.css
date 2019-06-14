@@ -50,10 +50,9 @@
     	font-weight: bold;
     }	
     
-    .page-home h3, .page-home h4, .parceiros h4, .populares h3{
+    .page-home h4, .parceiros h4{
 	    text-transform: uppercase;
     }
-    
     
 
     .nav>li>a,
@@ -86,13 +85,15 @@
     .btn,
     #wp-submit{
     	padding: 10px;
-    	border: 2px solid #aab2bd;
+    	border: none;
+        background: #aab2bd;
     	border-radius: 20px;
-    	color: #999999;
+    	color: #fff;
+        min-width: 152px;
     }
     .btn:hover,
     #wp-submit:hover{
-    	background: #aab2bd;
+    	background: #666;
     	color: #fff;
     }
     a.btn{
@@ -278,7 +279,8 @@ ul#qtranslate-chooser{
     **********************************/
 
     .home-page h3{
-    	text-transform: uppercase;
+    	text-transform: initial;
+        font-size: 26px;
     }
     .site-title, .site-description{
     	padding-bottom: 25px;
@@ -304,7 +306,7 @@ ul#qtranslate-chooser{
     }
     .menu a{
     	color: #ad8766;
-    	font-size: 30px;
+    	font-size: 26px;
     	text-align: center;
     	font-weight: 600;
     }
@@ -323,8 +325,14 @@ ul#qtranslate-chooser{
         letter-spacing: 0.02em;
     }
 
+    .single h3.single-author {
+        color: #FFF;
+        letter-spacing: 0.02em;
+        margin: -10px 0 30px;
+    }
+
     .box-title {
-        background: #a3955d;
+        background: #CBB72C;
     }
 
     #footer.with-menu {
@@ -745,6 +753,8 @@ ul#qtranslate-chooser{
     }
     .box-post{
     	padding-top: 30px;
+        font-family:"Times New Roman", Times, serif;
+        font-size: 1.2em;
     }
     .box-cont{
     	opacity: 1;
@@ -760,7 +770,7 @@ ul#qtranslate-chooser{
         width: 100%;
         max-height: 255px;
         height: auto;
-        background-color: #a3955d;
+        background-color: #CBB72C;
     }
 
     .form-group.interna{
@@ -1263,8 +1273,9 @@ p.login-submit {
 	    margin-top: 10px
     }
 		
-    .parceiros h4{
-	    margin-left: 15px
+    .parceiros h3{
+	    margin-left: 15px;
+        font-size: 26px;
     }
     
 			
@@ -1628,7 +1639,7 @@ p.login-submit {
 	text-decoration: none;
 }
 .box-download{
-	padding-top: 45px;
+	padding-top: 15px;
 }
 .box-limite{
 	width: 100%;

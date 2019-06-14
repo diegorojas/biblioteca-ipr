@@ -19,7 +19,7 @@
 			<div class="content-news row">
 
 			<div class="col-md-12 text-center">
-				<h4 class="pagetitle"><?php
+				<h2 class="pagetitle"><?php
 					
 					if($_GET['post_type'] == 'artigos'){
 	
@@ -40,7 +40,7 @@
 							elseif ( qtranxf_getLanguage()=='ja' ){echo '物品';}
 							else {echo 'artigos';}
 							
-  wp_reset_query(); } ?></h4>
+  wp_reset_query(); } ?></h2>
 			</div>
 
 
@@ -75,9 +75,14 @@
 								echo '</ul></div>';		
 	
 				else :
-	
-					get_template_part( 'content', 'none' );
-	
+							echo '<header class="col-md-12 page-header text-center">';
+							if ( qtranxf_getLanguage() == 'en' ){echo '<h3 class="page-title">Nothing Found</h3>';}
+							elseif ( qtranxf_getLanguage() == 'es' ){echo '<h3 class="page-title">Nada Encontrado</h3>';}
+							elseif ( qtranxf_getLanguage() == 'fr' ){echo '<h3 class="page-title">rien na été trouvé</h3>';}
+							elseif ( qtranxf_getLanguage() == 'de' ){echo '<h3 class="page-title">Nichts gefunden</h3>';}
+							elseif ( qtranxf_getLanguage() == 'ja' ){echo '<h3 class="page-title">何も見つかりません</h3>';}
+							else {echo '<h3 class="page-title">Nada encontrado</h3>';}
+							echo '</header>';
 				endif;
 				?>
 

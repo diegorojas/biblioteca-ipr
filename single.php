@@ -4,6 +4,25 @@
 <div class="box-title">
 	<div class="container">
 <h2 class="single-title"><?php the_title();?></h2>
+	<h3 class="single-author">
+		<strong><?php printf( __( 'By', 'odin' )); echo ': ';?>
+	<?php if(get_field('nome_autor')){
+		$post_objects = get_field('nome_autor');
+	    foreach( $post_objects as $post_object):
+			echo get_the_title($post_object).'; ';
+//										echo $post_object;
+	    endforeach;
+	}else{
+		$arr = id_aut_novo(id_aut(get_field('id')));
+		
+		foreach ($arr as $r) {
+			echo get_the_title($r).'; ';
+		}
+	}		
+	?>
+	
+		</strong>
+	</h3>
 	</div>
 </div>
 	<div id="content" class="site-content" role="main">
@@ -60,26 +79,7 @@ if(has_term('it','idioma')){ echo '<li class="li-it bt-traduzir" data-lang="it">
 								</div>	
 
 							</div>
-							<div class="the-post-content">
-								<h3><strong><?php printf( __( 'By', 'odin' )); echo ': ';?>
-								<?php if(get_field('nome_autor')){
-									$post_objects = get_field('nome_autor');
-								    foreach( $post_objects as $post_object):
-										echo get_the_title($post_object).'; ';
-//										echo $post_object;
-								    endforeach;
-								}else{
-									$arr = id_aut_novo(id_aut(get_field('id')));
-									
-									foreach ($arr as $r) {
-										echo get_the_title($r).'; ';
-									}
-								}		
-								?>
-								
-								</strong></h3>
 
-						</div>
 					</p>
 
 					<div class="box-limite">

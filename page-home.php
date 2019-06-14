@@ -9,7 +9,7 @@
 			<div class="entry-content home-page">
 
 				<div class="container">
-					<h3><?php printf( __( 'NEW ACQUISITIONS', 'odin' ));?></h3>
+					<h3><?php printf( __( 'New acquisitions', 'odin' ));?></h3>
 					<div class="row">
 						
 

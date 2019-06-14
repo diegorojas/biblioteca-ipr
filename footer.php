@@ -4,7 +4,7 @@
 
 		<?php if( is_page(86) ): ?>
 
-		<h4><?php printf( __( 'PARTNERS', 'odin' ));?></h4>
+		<h3 class="title-box"><?php printf( __( 'Partners', 'odin' ));?></h3>
 			
 			<div class="row">
 				<?php while( have_rows('Parceiros',86) ): the_row(); 

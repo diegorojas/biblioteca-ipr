@@ -885,11 +885,11 @@ ul#qtranslate-chooser{
     #gform_submit_button_2,
     #gform_submit_button_4 {
     	border-radius: 40px;
-    	border: 2px solid #aab2bd;
+    	border: none;
     	display: block;
-    	background: transparent;
+    	background: #aab2bd;
     	font-size: 16px !important;
-    	color: #999999;
+    	color: #fff;
     	font-weight: 100;
     	text-transform: capitalize;
     	height: 40px !important;
@@ -898,8 +898,7 @@ ul#qtranslate-chooser{
     
     #gform_submit_button_2:hover,
     #gform_submit_button_4:hover{
-    	background: #aab2bd;
-    	color: #fff;
+    	background: #666;
     }
     
     .autores span{

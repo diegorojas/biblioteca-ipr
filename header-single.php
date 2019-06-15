@@ -56,7 +56,7 @@
 					<input type="text" placeholder="<?php printf( __( 'Content Search', 'odin' )); ?>" class="form-control odin-tooltip" name="s" id="s" data-toggle="tooltip" data-placement="bottom" title="You can also use Ctrl+F/Cmd+F to find words on this page" />
 		
 							<input type="hidden" name="post_type" value="artigos" />
-							<input type="submit" class="btn btn-search" value="<?php esc_attr_e( 'Search', 'odin' ); ?>" />
+							<input type="submit" class="btn-search" value="<?php esc_attr_e( 'Search', 'odin' ); ?>" />
 						</div>
 					</form>
 				</div>
@@ -67,7 +67,7 @@
 						<?php echo qtranxf_generateLanguageSelectCode('both'); ?>
 						
 						<div class="dropdown  language-dropdown">
-						  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						  <button class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
 						    <span class="lang-flag"></span>
 						    <span class="caret"></span>
 						  </button>

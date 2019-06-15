@@ -20,7 +20,7 @@
 	    echo '<div class="topo">
 				<h2 class="bold">'; printf( __( 'Welcome', 'odin' )); echo', ' . $current_user->display_name . '</h2>
 				<a href="'.wp_logout_url('/').'" class="home btn" style="width: 60px; margin-left: 10px;">'; printf( __( 'Log Out', 'odin' ));echo '</a>
-				<a href="/edit-profile" class="home btn">'; printf( __( 'Edit profile', 'odin' ));echo '</a>
+				<a href="'. esc_url( home_url( '/edit-profile' ) ).'" class="home btn">'; printf( __( 'Edit profile', 'odin' ));echo '</a>
 			</div>';
 			echo '<p>'; printf( __( 'Email', 'odin' )); echo': ' . $current_user->user_email . '</p>';
 			echo '<p>'; printf( __( 'Country', 'odin' )); echo': ' . $current_user->pais . '</p>';

@@ -1,6 +1,6 @@
 <?php ?>
 <div class="container populares">
-<h3 class="title-box"><?php printf( __( 'SEE ALSO', 'odin' ));?></a></h3>
+<h3 class="title-box"><?php printf( __( 'See also', 'odin' ));?></a></h3>
 <div class="row">
 
 		<?php 

@@ -56,7 +56,6 @@
 								}else{
 									$k = 0;
 									$args = array('post_type' => 'autores', 'meta_key' => 'id','meta_value'   => id_aut(get_field('id')),'meta_compare' => 'IN', 'orderby' => 'title', 'order'   => 'ASC'); $wp_query = new WP_Query( $args ); if ( $wp_query->have_posts() ) : while ( $wp_query->have_posts() ) : $wp_query->the_post(); $k++; if($k <= 2){the_title(); } if($k == 2){echo ' et al.';}elseif($k == $wp_query->post_count){echo '';}elseif($k < 2){echo '; ';} endwhile; endif; wp_reset_query(); 			
-	
 
 								} ?>
 											<?php // if(get_field('data_exemplar')){echo '<span>';   echo  substr(get_field('data_exemplar'),0,4).'</span>';} ?>
@@ -79,8 +78,6 @@
 					<p></p>
 					<h3><?php printf( __( 'Articles', 'odin' ));?></h3>
 					<div class="content-news row">
-
-							
 							
 							<?php 
 							$paged = ( get_query_var('page') ) ? get_query_var('page') : 1;

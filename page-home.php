@@ -16,7 +16,7 @@
 							<?php 
 							$args = array( 
 								'post_type' => 'artigos',
-								'posts_per_page' => 3,
+								'posts_per_page' => 2,
 								'suppress_filters' => true
 							);
 							?>
@@ -27,7 +27,7 @@
 							
 							<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
-							<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="col-md-6 col-sm-6 col-xs-12">
 								<div class="recent post">
 									<div class="row">
 										<div class="col-md-6">
@@ -42,9 +42,10 @@
 	
 										<div class="col-md-6 content-home">
 											<?php $link = get_the_permalink(); ?>
-											<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+											<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></h4>
 											<?php // if(get_field('fonte')){ echo '<span>'; echo get_field('fonte').'</span>';} ?>
 								<?php if(get_field('nome_autor')){
+									printf( __( 'By', 'odin' ));  echo ': ';
 									$post_objects = get_field('nome_autor');$k = 0;
 									asort($post_objects);
 								    foreach( $post_objects as $post_object):$k++;
@@ -55,11 +56,12 @@
 								    endforeach;		
 								}else{
 									$k = 0;
+									printf( __( 'By', 'odin' ));  echo ': ';
 									$args = array('post_type' => 'autores', 'meta_key' => 'id','meta_value'   => id_aut(get_field('id')),'meta_compare' => 'IN', 'orderby' => 'title', 'order'   => 'ASC'); $wp_query = new WP_Query( $args ); if ( $wp_query->have_posts() ) : while ( $wp_query->have_posts() ) : $wp_query->the_post(); $k++; if($k <= 2){the_title(); } if($k == 2){echo ' et al.';}elseif($k == $wp_query->post_count){echo '';}elseif($k < 2){echo '; ';} endwhile; endif; wp_reset_query(); 			
 
 								} ?>
-											<?php // if(get_field('data_exemplar')){echo '<span>';   echo  substr(get_field('data_exemplar'),0,4).'</span>';} ?>
 								<?php echo '<p>'.strip_tags(wpautop(html_entity_decode(excerpt(15)))).'</p>'; ?>
+								</a>
 
 											<a href="<?php echo $link; ?>" class="home btn"><?php printf( __( 'Read more', 'odin' ));?></a>
 										</div>
@@ -111,9 +113,9 @@
 												} */?>
 												<div class="box-cont">
 													<h4><?php the_title(); ?></h4>
-													<?php // if(get_field('fonte')){echo '<span>';  echo ''. get_field('fonte').'</span>';} ?>
 								<span class="author-name">
 								<?php if(get_field('nome_autor')){
+									printf( __( 'By', 'odin' ));  echo ': ';
 									$post_objects = get_field('nome_autor');$k = 0;
 									asort($post_objects);
 								    foreach( $post_objects as $post_object):$k++;
@@ -127,9 +129,10 @@
 
 								} ?>
 								</span>
-													
-													<?php // if(get_field('data_exemplar')){echo '<span>'; echo ''. get_field('data_exemplar').'</span>';} ?>
-												</div>	
+									<?php if(get_field('fonte')){echo '<span class="author-name">'; printf( __( 'Publication', 'odin' ));  echo ': '. get_field('fonte').'</span>';} ?>
+									
+									<?php if(get_field('data_exemplar')){echo '<span class="author-name">'; printf( __( 'Date', 'odin' )); echo ': '. get_field('data_exemplar').'</span>';} ?>
+										</div>	
 											</a>
 								</div>
 
